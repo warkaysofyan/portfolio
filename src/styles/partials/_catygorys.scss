@@ -1,0 +1,116 @@
+.ctegory-top-container {
+	display: flex;
+	height: 100%;
+	.categorys {
+		height: 100%;
+		width: 15.19rem;
+		border-right: 1px solid #1e2d3d;
+		color: #fff;
+
+		font-family: Fira Code;
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		.top-chois {
+			.category-title {
+				//background-color: red;
+				cursor: pointer;
+				height: 2.54rem;
+				display: flex;
+				align-items: center;
+				gap: 0.69rem;
+				border-bottom: 1px solid #1e2d3d;
+				padding-left: 0.91rem;
+			}
+			.category-content {
+				text-decoration: none;
+				color: #607b96;
+				font-family: Fira Code;
+				border-bottom: 1px solid #1e2d3d;
+				padding-bottom: 0.7rem;
+				font-size: 1rem;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				padding-left: 0.91rem;
+				padding-top: 1.12rem;
+				li {
+					cursor: pointer;
+					list-style: none;
+					margin-bottom: 0.5rem;
+					div {
+						display: flex;
+						align-items: center;
+						svg:first-child {
+							margin-right: 0.82rem;
+						}
+						svg:nth-child(2) {
+							margin-right: 0.56rem;
+							align-self: center;
+						}
+					}
+					> ul > li {
+						display: flex;
+						align-items: center;
+						gap: 0.69rem;
+						margin-bottom: 0.5rem;
+						margin-top: 0.5rem;
+						margin-left: 3.3rem;
+						div {
+							a {
+								text-decoration: none;
+								color: #607b96;
+								font-family: Fira Code;
+								font-size: 0.8rem;
+								font-style: normal;
+								font-weight: 400;
+								line-height: normal;
+							}
+						}
+					}
+				}
+			}
+		}
+		.contacts {
+			.category-title {
+				cursor: pointer;
+				height: 2.54rem;
+				display: flex;
+				align-items: center;
+				gap: 0.69rem;
+				border-bottom: 1px solid #1e2d3d;
+				padding-left: 0.91rem;
+			}
+			.category-content {
+				text-decoration: none;
+				color: #607b96;
+				font-family: Fira Code;
+				border-bottom: 1px solid #1e2d3d;
+				padding-bottom: 0.7rem;
+				font-size: 0.8rem;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				padding-left: 0.91rem;
+				padding-top: 1.12rem;
+				li {
+					cursor: pointer;
+					list-style: none;
+					margin-bottom: 0.5rem;
+					display: flex;
+					align-items: center;
+					svg:first-child {
+						margin-right: 0.82rem;
+						margin-right: 0.56rem;
+						align-self: center;
+					}
+				}
+			}
+		}
+	}
+	.main-container {
+		background-color: rgba(188, 144, 144, 0.324);
+		width: 43.75rem;
+	}
+}

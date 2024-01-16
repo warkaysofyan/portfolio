@@ -1,0 +1,269 @@
+.main-home-page {
+	overflow: hidden;
+	height: calc(100vh - 3.20888rem - 3.51194rem);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	> div {
+		height: 29.6875rem;
+		width: calc(32.5625rem + 8.06rem + 31.875rem);
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.game-side {
+			width: 31.875rem;
+			height: 29.6875rem;
+		}
+		.text-side {
+			> div:first-child {
+				margin-bottom: 5.7rem;
+				> p {
+					font-size: 1rem;
+					color: #e5e9f0;
+					font-weight: 200;
+					line-height: normal;
+					font-style: normal;
+					height: 1.5rem;
+					margin-bottom: -0.7rem;
+				}
+				> h1 {
+					font-size: 3.875rem;
+					color: #e5e9f0;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+					height: 5rem;
+				}
+				> h3 {
+					font-size: 2rem;
+					color: #4d5bce;
+					font-style: normal;
+					font-weight: 300;
+					line-height: normal;
+					letter-spacing: -1px;
+					margin-top: -1rem;
+				}
+			}
+			> div:last-child {
+				> p {
+					color: #607b96;
+					font-family: Fira Code;
+					font-size: 1rem;
+					font-style: normal;
+					font-weight: 250;
+					line-height: normal;
+					margin-bottom: 0.5rem;
+				}
+				> p:last-child {
+					> span:nth-child(1) {
+						color: #4d5bce;
+					}
+					> span:nth-child(2) {
+						color: #43d9ad;
+					}
+					> span:nth-child(3) {
+						color: #fff;
+					}
+					> .l-part {
+						color: #e99287;
+						text-decoration-line: underline;
+					}
+				}
+			}
+		}
+	}
+}
+
+.game-container {
+	border-radius: 0.5rem;
+	border: 1px solid #0c1616;
+
+	background: linear-gradient(
+		150deg,
+		rgba(23, 85, 83, 0.7) 1.7%,
+		rgba(67, 217, 173, 0.09) 81.82%
+	);
+
+	box-shadow: inset 0px 0px 15px 16px rgba(0, 0, 0, 0.1);
+
+	border-radius: 0.5rem;
+	width: 31.875rem;
+	height: 29.6875rem;
+	overflow: visible;
+	position: relative;
+	.shadow-container {
+		> svg:first-child {
+			width: 40.875rem;
+			height: 40.6875rem;
+			position: absolute;
+			right: 0rem;
+			bottom: 0rem;
+			//transform: rotate(-94.305deg);
+			fill: #43d9ad;
+			filter: blur(100px);
+		}
+		> svg:last-child {
+			width: 40.875rem;
+			height: 40.6875rem;
+			position: absolute;
+			bottom: -15rem;
+			right: -10rem;
+			transform: rotate(13.508deg);
+			fill: #4d5bce;
+			filter: blur(100px);
+		}
+	}
+	.bolts {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		> svg {
+			position: absolute;
+			width: 1.3rem;
+			height: 1.3rem;
+			flex-shrink: 0;
+		}
+		svg:first-child {
+			top: 0.76rem;
+			left: 0.8rem;
+		}
+		svg:nth-child(2) {
+			top: 0.76rem;
+			right: 0.8rem;
+		}
+		svg:nth-child(3) {
+			bottom: 0.76rem;
+			left: 0.8rem;
+		}
+		svg:last-child {
+			bottom: 0.76rem;
+			right: 0.8rem;
+		}
+	}
+	.game-content {
+		width: 100%;
+		height: 100%;
+		border-radius: 0.5rem;
+		box-shadow: 1px 5px 11px 0px rgba(2, 18, 27, 0.71) inset;
+		display: flex;
+		align-items: center;
+		position: relative;
+		.snake-content {
+			border-radius: 0.5rem;
+			background: rgba(1, 22, 39, 0.84);
+			box-shadow: 1px 5px 11px 0px rgba(2, 18, 27, 0.71) inset;
+			margin-left: 1.89rem;
+			margin-right: 1.52rem;
+			border-radius: 0.5rem;
+			width: 14.91819rem;
+			height: 25.3325rem;
+			position: relative;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			.snake {
+				margin-bottom: 4.17rem;
+				margin-top: 3.31rem;
+				> svg:first-child {
+					position: absolute;
+					top: 3.31rem;
+					left: 5.15rem;
+				}
+				> svg:last-child {
+					position: absolute;
+					top: 5.71rem;
+					left: 6.16rem;
+				}
+			}
+			.btn {
+				padding: 0.625rem 0.875rem;
+				border-radius: 0.5rem;
+				background: #fea55f;
+				color: #01080e;
+				border: none;
+				text-align: right;
+				font-size: 0.875rem;
+				font-style: normal;
+				font-weight: 350;
+				line-height: normal;
+				cursor: pointer;
+				width: 7rem;
+				height: 2.375rem;
+			}
+		}
+		> .text {
+			margin-right: 2.21rem;
+			margin-top: 2.19rem;
+			align-self: flex-start;
+			> .upper-part {
+				width: 11.33638rem;
+				height: 8.875rem;
+				flex-shrink: 0;
+				border-radius: 0.5rem;
+				background: rgba(1, 20, 35, 0.19);
+				padding: 0.89rem 0.76rem 0.78rem 0.82rem;
+				> div:first-child {
+					color: #fff;
+					font-family: Fira Code;
+					font-size: 0.875rem;
+					font-style: normal;
+					font-weight: 300;
+					line-height: normal;
+					margin-bottom: 0.97rem;
+				}
+				> div:last-child {
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					svg:nth-child(1) {
+						flex-basis: 100%;
+					}
+				}
+			}
+			> .down-part {
+				margin-top: 1.29rem;
+				display: flex;
+				width: 11.33638rem;
+				flex-direction: column;
+				margin-left: 0.82rem;
+				//margin-right: 2.11rem;
+				position: relative;
+				> p {
+					color: #fff;
+					font-family: Fira Code;
+					font-size: 0.875rem;
+					font-style: normal;
+					font-weight: 450;
+					line-height: normal;
+					margin-bottom: 0.86rem;
+				}
+				> button {
+					display: inline-flex;
+					padding: 0.625rem 0.875rem;
+					justify-content: center;
+					align-items: center;
+					gap: 0.625rem;
+					border-radius: 0.5rem;
+					border: 1px solid #fff;
+					background-color: transparent;
+					width: 4rem;
+					position: absolute;
+					top: 11.67rem;
+					right: 0px;
+					> :first-child {
+						color: #fff;
+						text-align: right;
+						font-family: Fira Code;
+						font-size: 0.875rem;
+						font-style: normal;
+						font-weight: 450;
+						line-height: normal;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
